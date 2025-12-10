@@ -29,7 +29,7 @@ const Features: React.FC = () => {
               {/* Icon Container */}
               <div className="relative mb-6">
                 <div className="w-20 h-20 rounded-full border border-white/10 bg-dark-800 flex items-center justify-center group-hover:border-gold-500 group-hover:scale-110 transition-all duration-500 relative z-10">
-                   {React.cloneElement(feature.icon as React.ReactElement, { 
+                   {React.cloneElement(feature.icon as React.ReactElement<any>, { 
                      size: 32, 
                      className: "text-gray-400 group-hover:text-gold-400 transition-colors duration-500" 
                    })}
